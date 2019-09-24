@@ -150,7 +150,7 @@ def long_name_steals_a_ton?
   longest_name = player_with_longest_name
   longest_name_stats = player_stats(longest_name)
   longest_name_steals = longest_name_stats[:steals]
-  binding.pry
+  
   statistics = game_hash
   statistics.each do |home_away, first_hash|
     first_hash[:players].each do |player_hash|
